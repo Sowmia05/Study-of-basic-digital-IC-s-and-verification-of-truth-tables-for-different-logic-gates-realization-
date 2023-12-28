@@ -1,12 +1,12 @@
 # Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-
- AIM:
+## AIM:
 To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
 
-Equipment Required:
+## Equipment Required:
 Hardware – PCs, Cyclone II, USB flasher
 
 
-Introduction
+## Introduction
 Logic gates are the basic building blocks of any digital system. Logic gates are electronic circuits having one or more than one input and only one output. The relationship between the input and the output is based on a certain logic. Based on this, logic gates are named as
 
 AND gate
@@ -51,13 +51,16 @@ The 'Exclusive-NOR' gate circuit does the opposite to the EX-OR gate. It will gi
 
 Y= A⊕B
 
-Procedure
+## Procedure
+```
 Connect the supply (+5V) to the circuit
 Switch ON the main switch
 Press the switches for inputs “A” and “B”. The switch is ON state when 1 is pressed. The switch is OFF state when 0 is pressed.
 If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
-Program:
+```
+## Program
+```
 /*
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
 Developed by: SOWMIA R 
@@ -74,16 +77,17 @@ nand (y5,a,b);
 nor(y6,a,b);
 xnor (y7,a,b);
 endmodule
- Truthtable:
+```
+## Truthtable:
  ![image](https://github.com/Sowmia05/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/154528111/381c17f7-9d43-481d-8eb7-5f7c8528431d)
 
  
-RTL realization
+## RTL realization
 ![image](https://github.com/Sowmia05/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/154528111/881dd467-6eb2-4683-b8f0-6f83ab423009)
 
-Timing diagram
+## Timing diagram
 
 ![image](https://github.com/Sowmia05/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/154528111/fcc7a665-d3d0-4c98-871a-341dd91bf764)
 
-Result:
+## Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
